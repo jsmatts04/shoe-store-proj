@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../../App.css";
-import NikeImage from "../../images/nike.svg";
 import cartImage2 from "../../images/cart7.svg";
 import Badge from "@material-ui/core/Badge";
 import { useSelector } from "react-redux";
@@ -14,6 +13,9 @@ function Nav() {
   );
 
   const [productState, setProductState] = useState(
+    "hvr-underline-from-center nav-link"
+  );
+  const [loginState, setLoginState] = useState(
     "hvr-underline-from-center nav-link"
   );
   const [cartState, setCartState] = useState(
@@ -33,6 +35,7 @@ function Nav() {
     setHomeState("hvr-underline-from-center nav-link");
     setProductState("hvr-underline-from-center nav-link active");
     setCartState("hvr-underline-from-center nav-link");
+    setLoginState("hvr-underline-from-center nav-link");
   };
 
   // Cart
@@ -40,6 +43,14 @@ function Nav() {
     setHomeState("hvr-underline-from-center nav-link");
     setProductState("hvr-underline-from-center nav-link");
     setCartState("hvr-underline-from-center nav-link active");
+    setLoginState("hvr-underline-from-center nav-link");
+  };
+  // login
+  const setLogin = () => {
+    setHomeState("hvr-underline-from-center nav-link");
+    setProductState("hvr-underline-from-center nav-link");
+    setCartState("hvr-underline-from-center nav-link");
+    setLoginState("hvr-underline-from-center nav-link active");
   };
 
   // Total
@@ -58,6 +69,10 @@ function Nav() {
             <Link className={productState} to="/product" onClick={setProduct}>
               {" "}
               Products{" "}
+            </Link>
+            <Link className={loginState} to="/login" onClick={setLogin}>
+              {" "}
+              Login{" "}
             </Link>
             {/* Badged */}
             <Badge badgeContent={totalItems} color="primary">

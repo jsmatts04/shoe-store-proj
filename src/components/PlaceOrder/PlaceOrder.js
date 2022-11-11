@@ -12,12 +12,12 @@ function PlaceOrder() {
     <div className="placeOrder-container">
       <h2 className="thankyou">Thank you for your order</h2>
       <p>
-        Your order number is <strong>#2001539</strong>. We have emailed your
+        Your order number is <strong>#4006758</strong>. We have emailed your
         order confirmation, and will send you an update when your order has
         shipped.
       </p>
       <br />
-      <h2 className="dont-worry">Don't worry it's just a template !</h2>
+      <h2 className="dont-worry">Nothing was actually sent!</h2>
       <br />
     </div>
   );
