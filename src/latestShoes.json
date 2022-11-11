@@ -1,0 +1,20 @@
+{
+  "shoe1": {
+    "name": "Nike Air Jordan 1 ",
+    "img": "https://teeclone.com/wp-content/uploads/2022/09/20220807-084825-1-600x360.jpg",
+    "price": 399.0,
+    "description": "The shoe brings genuine University Blue leather to the ankle, heel, toe and outsole, with black on the Swoosh and collar and contrasting white on the quarter panel, midsole, and toe box."
+  },
+  "shoe2": {
+    "name": "Adidas Ultra Boost",
+    "img": "https://images.stockx.com/images/adidas-Ultra-Boost-4-0-Running-White-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1612900601",
+    "price": 180.0,
+    "description": "The adidas Primeknit upper wraps the foot in support, adapting to the changing shape of your foot with each take-off and landing. Plush Boost cushioning returns energy with each stride."
+  },
+  "shoe3": {
+    "name": "Nike PG 1 Flip The Switch",
+    "img": "https://images.solecollector.com/complex/image/upload/c_fill,f_auto,fl_lossy,q_auto,w_1100/nb7bcavzfoaanqivyy8r.jpg",
+    "price": 199,
+    "description": "The Nike PG 1 is part of a special pack known as the Flip the Switch Collection, which embodies the energetic atmosphere of the NBA playoffs. The sneaker features a jagged cut Swoosh."
+  }
+}
