@@ -72,7 +72,7 @@ function Nav() {
             </Link>
             <Link className={registerState} to="/register" onClick={setRegister}>
               {" "}
-              Register{" "}
+              Login/Register{" "}
             </Link>
             {/* Badged */}
             <Badge badgeContent={totalItems} color="primary">
