@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background: linear-gradient(45deg, #d20000,rgb(128, 0, 111), #7462ff, #f48e21, #74faa5, rgb(39, 95, 248));
+  background: linear-gradient(45deg, #d20000, rgb(128, 0, 111), #7462ff, #f48e21, #74faa5, rgb(39, 95, 248));
   background-size: 300% 300%;
   animation: color 8s ease-in-out infinite;
   height: 100vh;
@@ -28,6 +28,69 @@ body {
     background-position: 0 50%;
   }
 }
+
+/* Register */
+.entire-login-div {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin-top: -240px;
+  margin-left: -210px;
+  width: 400px;
+  height: 500px;
+  background-image: radial-gradient(rgb(209, 209, 209), rgb(247, 247, 247));
+  border-radius: 10%;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.register-submit-btn{
+  background-image: linear-gradient(rgb(65, 65, 247),rgb(81, 81, 235),rgb(97, 142, 238));
+  text-align: center; 
+  width: 80%;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 10px;
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+.form-group{
+  line-height: 3rem;
+}
+
+form .form-group{
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin: 5px;
+}
+
+.form-group input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.form-group span::before{
+  content: '';
+  position: absolute;
+  top: 95px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #2691d9;
+}
+
+.form-group input:focus ~ label,
+.form-group input:valid ~ label{
+  top: -5px;
+  color: #2691d9;
+}
+
 /* Main Container */
 .container {
   font-family: "Merienda One", cursive;
@@ -49,6 +112,7 @@ body {
   position: relative;
   overflow: hidden;
 }
+
 .hvr-underline-from-center:before {
   content: "";
   position: absolute;
@@ -65,6 +129,7 @@ body {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+
 .hvr-underline-from-center:hover:before,
 .hvr-underline-from-center:focus:before,
 .hvr-underline-from-center:active:before {
@@ -354,7 +419,7 @@ body {
   text-shadow: 4px 4px 1px #1e80d4;
 }
 
-.about-nike > p {
+.about-nike>p {
   margin: 20px;
   font-family: "Rowdies", cursive;
   font-size: 22px;
@@ -395,7 +460,7 @@ body {
     font-size: 20px;
   }
 
-  .about-nike > p {
+  .about-nike>p {
     font-size: 14px;
   }
 
@@ -429,7 +494,7 @@ body {
     padding: 2px;
   }
 
-  .about-nike > p {
+  .about-nike>p {
     font-size: 11px;
   }
 }
@@ -451,7 +516,7 @@ body {
     padding: 2px;
   }
 
-  .about-nike > p {
+  .about-nike>p {
     font-size: 11px;
   }
 }
@@ -461,7 +526,7 @@ body {
     padding-top: 120px;
   }
 
-  .about-nike > p {
+  .about-nike>p {
     font-size: 8px;
   }
 }
@@ -483,7 +548,7 @@ body {
     padding-top: 100px;
   }
 
-  .about-nike > p {
+  .about-nike>p {
     font-size: 7px;
   }
 }
@@ -508,7 +573,7 @@ body {
     padding-top: 100px;
   }
 
-  .about-nike > p {
+  .about-nike>p {
     padding: 0;
     margin: 1;
     font-size: 5px;
@@ -657,6 +722,7 @@ body {
   text-align: center;
   justify-content: center;
 }
+
 .products-section {
   margin: 1rem;
   padding: 1rem;
@@ -762,6 +828,7 @@ body {
   box-shadow: 0 1px #666;
   transform: translateY(4px);
 }
+
 /* Summary Card */
 .summary-text {
   font-family: "Allerta", sans-serif;
@@ -817,6 +884,7 @@ body {
   .title {
     font-size: 20px !important;
   }
+
   .about-button {
     font-size: 10px;
   }
@@ -902,6 +970,7 @@ fieldset {
     width: 90%;
     padding: 20px;
   }
+
   /* .checkout-btn {
     width: 80% !important;
   } */
@@ -948,7 +1017,7 @@ fieldset {
   font-size: 1.3rem;
 }
 
-.place-order-container > h1 {
+.place-order-container>h1 {
   border-bottom: 2px solid #201414;
 }
 
@@ -994,7 +1063,7 @@ fieldset {
   background-color: rgb(226, 214, 214);
 }
 
-.shipping-container > h2 {
+.shipping-container>h2 {
   color: gray;
 }
 
@@ -1012,9 +1081,11 @@ fieldset {
   .left {
     font-size: 90% !important;
   }
+
   .right {
     font-size: 90% !important;
   }
+
   .shipping-container h2 {
     font-size: 90% !important;
   }
@@ -1029,6 +1100,7 @@ fieldset {
     font-size: 80% !important;
   }
 }
+
 /* .. */
 
 /* PLACE ORDER */
@@ -1043,7 +1115,7 @@ fieldset {
   border-radius: 20px;
 }
 
-.placeOrder-container > p {
+.placeOrder-container>p {
   font-size: 100%;
 }
 
@@ -1065,7 +1137,8 @@ fieldset {
   .dont-worry {
     font-size: 110%;
   }
-  .placeOrder-container > p {
+
+  .placeOrder-container>p {
     font-size: 80%;
   }
 }
@@ -1168,6 +1241,7 @@ fieldset {
   .footer-para {
     font-size: 20px;
   }
+
   .my-name {
     font-size: 20px;
   }

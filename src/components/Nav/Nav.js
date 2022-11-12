@@ -15,7 +15,7 @@ function Nav() {
   const [productState, setProductState] = useState(
     "hvr-underline-from-center nav-link"
   );
-  const [loginState, setLoginState] = useState(
+  const [registerState, setRegisterState] = useState(
     "hvr-underline-from-center nav-link"
   );
   const [cartState, setCartState] = useState(
@@ -35,7 +35,7 @@ function Nav() {
     setHomeState("hvr-underline-from-center nav-link");
     setProductState("hvr-underline-from-center nav-link active");
     setCartState("hvr-underline-from-center nav-link");
-    setLoginState("hvr-underline-from-center nav-link");
+    setRegisterState("hvr-underline-from-center nav-link");
   };
 
   // Cart
@@ -43,14 +43,14 @@ function Nav() {
     setHomeState("hvr-underline-from-center nav-link");
     setProductState("hvr-underline-from-center nav-link");
     setCartState("hvr-underline-from-center nav-link active");
-    setLoginState("hvr-underline-from-center nav-link");
+    setRegisterState("hvr-underline-from-center nav-link");
   };
   // login
-  const setLogin = () => {
+  const setRegister = () => {
     setHomeState("hvr-underline-from-center nav-link");
     setProductState("hvr-underline-from-center nav-link");
     setCartState("hvr-underline-from-center nav-link");
-    setLoginState("hvr-underline-from-center nav-link active");
+    setRegisterState("hvr-underline-from-center nav-link active");
   };
 
   // Total
@@ -70,9 +70,9 @@ function Nav() {
               {" "}
               Products{" "}
             </Link>
-            <Link className={loginState} to="/login" onClick={setLogin}>
+            <Link className={registerState} to="/register" onClick={setRegister}>
               {" "}
-              Login{" "}
+              Register{" "}
             </Link>
             {/* Badged */}
             <Badge badgeContent={totalItems} color="primary">

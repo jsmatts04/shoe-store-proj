@@ -9,6 +9,8 @@ import Cart from "./components/Cart/Cart";
 import Checkout from "./components/Checkout/Checkout";
 import OrderSummary from "./components/OrderSummary/OrderSummary";
 import PlaceOrder from "./components/PlaceOrder/PlaceOrder";
+import Login from "./components/Login/Login";
+import Register from "./components/Register/Register";
 
 function RouterFunction() {
   return (
@@ -24,6 +26,7 @@ function RouterFunction() {
           <Route path="/checkout" component={Checkout} />
           <Route path="/ordersummary" component={OrderSummary} />
           <Route path="/product/:id" component={ProductItems} />
+          <Route path="/register" component={Register} />
           <Route path="*" component={() => <h2>404 Not Found </h2>} />
         </Switch>
       </Router>
