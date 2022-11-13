@@ -9,4 +9,4 @@ function LoginSuccess() {
   )
 }
 
-export default LoginSuccess
+export default LoginSuccess;
