@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Alert } from '@material-ui/lab';
 import Login from "../Login/Login";
+import axios from "axios";
 
 function Register() {
 
@@ -12,14 +13,21 @@ function Register() {
 
     function handleSubmit(e) {
         e.preventDefault();
+        const newUsers = {
+            fullName: name,
+            email: email,
+            password: password
+        }
 
         if (!name || !email || !password) {
             setFlag(true);
         } else {
             setFlag(false);
+            localStorage.setItem("Full-Name", JSON.stringify(name));
             localStorage.setItem("Email", JSON.stringify(email));
             localStorage.setItem("Password", JSON.stringify(password));
 
+            axios.post('http://localhost:3001/create', newUsers)
             console.log("Saved in Local Storage");
             setLogin(!login);
         }
@@ -63,13 +71,13 @@ function Register() {
                             placeholder="Password"
                             onChange={(event) => setPassword(event.target.value)}
                         />
-                        <span></span>
+                        <span></span>a
                     </div>
                     <button type="submit" className="register-submit-btn"> Register</button>
                     <br></br>
-                    
+
                     <p onClick={handleClick}>Already registered?{" "} Login Here</p>
-                    
+
 
                     {flag && (
                         <Alert className="alert-message">
