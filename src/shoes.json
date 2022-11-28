@@ -3,66 +3,77 @@
     "name": "Flex Experience Run 9",
     "img": "https://m.media-amazon.com/images/I/61FxQSqEpOL._AC_SR700,525_.jpg",
     "img2": "https://m.media-amazon.com/images/I/61FxQSqEpOL._AC_SR700,525_.jpg",
-    "price": 65.00
+    "price": 65.00,
+    "description": "The Nike flex experience run 9 4E is built for movement. Its versatile design keeps you comfortable no matter the run."
   },
   "shoe2": {
     "name": "Flex Control 4",
     "img": "https://m.media-amazon.com/images/I/71Cc3JcCN7L._AC_SR700,525_.jpg",
     "img2": "https://m.media-amazon.com/images/I/717eNWShX9L._AC_SR700,525_.jpg",
-    "price": 65.00 
+    "price": 65.00,
+    "description": "Emphasizing lightweight comfort and stability, the Nike Flex Control 4 is tailored to explosive workouts. Its lightweight, flexible upper has a midfoot strap for stability, while the sole has deep flex grooves to let your foot move naturally."
   },
    "shoe3": {
     "name": "Air Max Motion 2",
     "img": "https://m.media-amazon.com/images/I/61IPQlMjDkL._AC_SR700,525_.jpg",
     "img2": "https://m.media-amazon.com/images/I/71ZH5cjP+oL._AC_SR700,525_.jpg",
-    "price": 84.95
+    "price": 84.95,
+    "description": "Taking inspiration from the Air Max 270, these Nike Air Max Motion 2 shoes blend a breathable mesh upper with no-sew overlays for heritage style. A large, U-shaped Max Air unit provides all-day comfort, while the heel clip delivers maxed-out visual impact and cushioning."
   },
   "shoe4": {
     "name": "Phantom GT Club DF FG/MG",
     "img2": "https://m.media-amazon.com/images/I/71caHEigvFL._AC_SR700,525_.jpg",
     "img": "https://m.media-amazon.com/images/I/81kz-cAPItL._AC_SR700,525_.jpg",
-    "price": 65.00
+    "price": 65.00,
+    "description":"Phantom GT Club Dynamic Fit MG is built for both focused play and powerful kicks on a variety of surfaces. A sticky texture across the synthetic leather gives you grip when passing, dribbling and shooting. The addition of a stretchy collar provides seamless support."
   },
   "shoe5": {
     "name": "Revolution 5",
     "img": "https://m.media-amazon.com/images/I/71hDmDMMP2L._AC_SR700,525_.jpg",
     "img2": "https://m.media-amazon.com/images/I/71t0hlD+c-L._AC_SR700,525_.jpg",
-    "price": 60.00
+    "price": 60.00,
+    "description": "When the road beckons, answer the call in a lightweight pair that’ll keep you moving mile after mile. Soft foam cushions your stride, and a reinforced heel delivers a smooth, stable ride. Crafted with knit material for breathable support, while a minimalist design fits in just about anywhere your day takes you."
   },
   "shoe6": {
     "name": "Air Zoom Pegasus 37",
     "img2": "https://m.media-amazon.com/images/I/71g-We8o72L._AC_SR700,525_.jpg",
     "img": "https://m.media-amazon.com/images/I/817zeMd4VHL._AC_SR700,525_.jpg",
-    "price": 120.00
+    "price": 120.00,
+    "description":"Take your training runs to the next level with the Nike Air Zoom Pegasus 37. With unbelievable React cushioning and a new forefoot Air unit, they’re like a bolt of caffeine for your legs. The lightweight upper breathes incredibly well. Pared-down, perfectly placed padding helps reduce hotspots. And the super grippy outsole? Well, let’s just say you gotta stay upright to run. Here’s to letting mud fly and streets vanish behind you."
   },
   "shoe7": {
     "name": "Air Zoom UNVRS",
     "img": "https://m.media-amazon.com/images/I/81C1kDkbvIL._AC_SR700,525_.jpg",
     "img2": "https://m.media-amazon.com/images/I/814KQoM6r7L._AC_SR700,525_.jpg",
-    "price": 160.00
+    "price": 160.00,
+    "description": "Built for all basketball players and inspired by Elena Delle Donne, the Nike Air Zoom UNVRS with FlyEase technology gives you a quick and easy way to get into your shoes and onto the court."
   },
   "shoe8": {
     "name": "Precision IV",
     "img2": "https://m.media-amazon.com/images/I/71mZoDkYldL._AC_SR700,525_.jpg",
     "img": "https://m.media-amazon.com/images/I/71nygeHSIxL._AC_SR700,525_.jpg",
-    "price": 70.00
+    "price": 70.00,
+    "description":"The quicker players are in and out of cuts, the easier it is to keep the defense off balance. These men's Nike Precision IV basketball shoes combine a racer look with a low-profile design, so you can make the most of your speed and agility."
   },
   "shoe9": {
     "name": "Zoom Winflo 7",
     "img": "https://m.media-amazon.com/images/I/617B1dkZLnL._AC_SR700,525_.jpg",
     "img2": "https://m.media-amazon.com/images/I/71oPkHow9cL._AC_SR700,525_.jpg",
-    "price": 90.00
+    "price": 90.00,
+    "description": "Push yourself to the limit – even if the skies are against you – with the Nike Zoom Winflo 7 Shield mixed shoes. This reinforced Winflo 7 edition improves protection and traction in rainy weather, keeping your feet dry and warm to allow you explosive performance on the road."
   },
   "shoe10": {
     "name": "Revolution 5 (Infant/Toddler)",
     "img2": "https://m.media-amazon.com/images/I/71aE0iPUSYL._AC_SR700,525_.jpg",
     "img": "https://m.media-amazon.com/images/I/71soSeWlu8L._AC_SR700,525_.jpg ",
-    "price": 45.00
+    "price": 45.00,
+    "description": "Run, play and have fun with the Nike Revolution 5. It wraps little feet with durable leather for support and soft foam cushioning for revolutionary comfort. A strap make it easy to take the shoe on and off."
   },
   "shoe11": {
     "name": "Free Metcon 3",
     "img2": "https://m.media-amazon.com/images/I/71EqKNLiY8L._AC_SR700,525_.jpg",
     "img": "https://m.media-amazon.com/images/I/711psPomIbL._AC_SR700,525_.jpg",
-    "price": 120.00
+    "price": 120.00,
+    "description": "The Nike Free Metcon 3 combines Nike Free flexibility around the forefoot with Metcon stability in the heel to help you get the most out of your training session."
   }
 }

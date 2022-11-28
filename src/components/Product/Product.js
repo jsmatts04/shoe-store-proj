@@ -7,7 +7,6 @@ import cartImage from "../../images/cart1.svg";
 import { store, add, selectProducts, setTotalItems } from "../../store";
 
 function Product() {
-  // Select Data from redux store
   const products = useSelector(selectProducts);
 
   const cartProducts = products.filter((product) => product.added);
@@ -18,7 +17,6 @@ function Product() {
     <div>
       <div className="product-container">
         {products.map((product) => {
-          // variables
           let id = product.id;
           let title = product.title;
           let imageUrl = product.imageUrl;

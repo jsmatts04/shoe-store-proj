@@ -9,7 +9,6 @@ function ProductItems() {
   const { id } = useParams();
   const shoe = Shoes[id];
 
-  //If shoe not found
   if (!shoe) {
     return <h2>Product Not Found !</h2>;
   }
@@ -29,6 +28,7 @@ function ProductItems() {
           src={shoe.img2}
         />{" "}
       </div>
+      <h2 className="shoe-description"> {shoe.description} </h2>
     </div>
   );
 }

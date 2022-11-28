@@ -10,7 +10,6 @@ import "./stepper.css";
 import PlaceOrder from "../PlaceOrder/PlaceOrder";
 import { useHistory } from "react-router-dom";
 
-// Custom Styles
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "95%",
@@ -28,14 +27,10 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-// Functions
-
-// // getStepLabels - To Get Step Labels
 const getStepLabels = () => {
   return ["Personal Information", "Address Information", "Place Order"];
 };
 
-// // GetStepContent - Decide Which Form to show and gets it's data based on StepIndex
 const getStepContent = (stepIndex, handleNext) => {
   switch (stepIndex) {
     case 0:
@@ -52,26 +47,22 @@ const getStepContent = (stepIndex, handleNext) => {
   }
 };
 
-// Component
 const StepperComponent = () => {
   let history = useHistory();
 
-  const classes = useStyles(); // Use Custom Styles Created
-  const [activeStep, setActiveStep] = useState(0); // Set Active Step
-  const stepLabels = getStepLabels(); // Get Step Labels
+  const classes = useStyles();
+  const [activeStep, setActiveStep] = useState(0); 
+  const stepLabels = getStepLabels(); 
 
-  // Handle Next Button
   const handleNext = () => {
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
   };
 
-  // Handle Reset Button
   const handleReset = () => {
     setActiveStep(0);
     history.push("/");
   };
 
-  // Return
   return (
     <div className={classes.root}>
       <div className="stepper">
@@ -85,7 +76,7 @@ const StepperComponent = () => {
         />
       </div>
       <div>
-        {/* If steps are completed or not */}
+        {}
 
         {activeStep === stepLabels.length ? (
           <div>

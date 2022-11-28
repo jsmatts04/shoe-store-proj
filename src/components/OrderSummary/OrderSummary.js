@@ -10,10 +10,8 @@ function OrderSummary() {
   const cartProducts = products.filter((product) => product.added);
   let totalAmount = useSelector(selectTotalAmount);
 
-  // Use Context
   const [ShippingState, setShippingState] = useContext(ShippingContext);
 
-  // Shipping state
   const {
     first_name,
     last_name,
@@ -29,11 +27,9 @@ function OrderSummary() {
       <div className="place-order-container">
         <h1>Order Summary</h1>
         <br />
-
-        {/* Items */}
+        { }
 
         {cartProducts.map((product, index) => {
-          // Variables
           let id = product.id;
           let name = product.title;
           let price = product.price;
@@ -55,7 +51,7 @@ function OrderSummary() {
           );
         })}
 
-        {/* Delivery */}
+        { }
         <>
           <br />
           <br />
@@ -68,7 +64,7 @@ function OrderSummary() {
           <br />
         </>
 
-        {/* Total */}
+        { }
 
         <>
           <p className="left">Total</p>
@@ -80,7 +76,7 @@ function OrderSummary() {
           <br />
         </>
 
-        {/* Shipping Details */}
+        { }
 
         <div className="shipping-container">
           <h2>( Shipping Details )</h2>
@@ -97,7 +93,7 @@ function OrderSummary() {
           <br />
         </div>
 
-        {/* Buttons */}
+        { }
         <br />
         <br />
         <Link to="/checkout">

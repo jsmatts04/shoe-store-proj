@@ -71,7 +71,7 @@ function Register() {
                             placeholder="Password"
                             onChange={(event) => setPassword(event.target.value)}
                         />
-                        <span></span>a
+                        <span></span>
                     </div>
                     <button type="submit" className="register-submit-btn"> Register</button>
                     <br></br>
@@ -81,7 +81,7 @@ function Register() {
 
                     {flag && (
                         <Alert className="alert-message">
-                            Please Fill Every Field
+                            Fields Incomplete!
                         </Alert>
                     )}
                 </form>

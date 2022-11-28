@@ -5,14 +5,11 @@ import { CartContext } from "../../CartContext";
 import Tooltip from "@material-ui/core/Tooltip";
 
 function Shoe({ shoe, keyName }) {
-  // Use Context
   const [cart, setCart] = useContext(CartContext);
 
-  // Add to cart
   const addToCart = (shoeProduct) => {
     let newCart = [...cart];
     let itemInCart = newCart.find((item) => shoeProduct.name === item.name);
-    // Condition
     if (itemInCart) {
       itemInCart.quantity++;
     } else {
@@ -22,7 +19,6 @@ function Shoe({ shoe, keyName }) {
       };
       newCart.push(itemInCart);
     }
-    // ...
 
     setCart(newCart);
   };

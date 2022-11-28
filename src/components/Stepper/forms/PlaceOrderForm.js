@@ -8,7 +8,6 @@ import { selectTotalAmount, selectProducts } from "../../../store";
 import { CartContext } from "../../../CartContext";
 import { setTotalItems, store, emptyCart } from "../../../store";
 
-// AddressForm
 const PlaceOrderForm = ({ handleNext }) => {
   const products = useSelector(selectProducts);
   const cartProducts = products.filter((product) => product.added);
@@ -16,10 +15,8 @@ const PlaceOrderForm = ({ handleNext }) => {
 
   let totalAmount = useSelector(selectTotalAmount);
 
-  // Use Context
   const [ShippingState, setShippingState] = useContext(ShippingContext);
 
-  // Shipping state
   const {
     first_name,
     last_name,
@@ -34,12 +31,9 @@ const PlaceOrderForm = ({ handleNext }) => {
     <Formik
       initialValues={{}}
       onSubmit={(values) => {
-        // To Give The Feel of an API
-        setTimeout(() => {
-          // console.log(JSON.stringify(values, null, 2));
-          // console.log(ShippingState);
-          setCart([]);
-          // Set total Items
+         setTimeout(() => {
+              setCart([]);
+
           store.dispatch(emptyCart(products));
           store.dispatch(setTotalItems(0));
           handleNext();
@@ -52,10 +46,9 @@ const PlaceOrderForm = ({ handleNext }) => {
             <h1>Order Summary</h1>
             <br />
 
-            {/* Items */}
 
             {cartProducts.map((product, index) => {
-              // Variables
+   
               let id = product.id;
               let name = product.title;
               let price = product.price;
@@ -77,7 +70,6 @@ const PlaceOrderForm = ({ handleNext }) => {
               );
             })}
 
-            {/* Delivery */}
             <>
               <br />
               <br />
@@ -90,7 +82,6 @@ const PlaceOrderForm = ({ handleNext }) => {
               <br />
             </>
 
-            {/* Total */}
 
             <>
               <p className="left">Total</p>
@@ -102,7 +93,6 @@ const PlaceOrderForm = ({ handleNext }) => {
               <br />
             </>
 
-            {/* Shipping Details */}
 
             <div className="shipping-container">
               <h2>( Shipping Details )</h2>
@@ -119,7 +109,7 @@ const PlaceOrderForm = ({ handleNext }) => {
               <br />
             </div>
 
-            {/* Buttons */}
+
             <br />
             <Form autoComplete="off">
               <Button

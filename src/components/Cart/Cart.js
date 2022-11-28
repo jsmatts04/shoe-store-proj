@@ -18,20 +18,15 @@ import {
 } from "../../store";
 
 function Cart() {
-  // const total = Number(totalPrice).toFixed(2);
-
-  // Get total Items from store
   let totalItems = useSelector(selectTotalItems);
-  // Get total Amount from store
   let totalAmount = useSelector(selectTotalAmount);
-  // Get products from store
+
   const products = useSelector(selectProducts);
-  // Filter Cart products
   const cartProducts = products.filter((product) => product.added);
-  // Set total Items
+
   store.dispatch(setTotalItems(cartProducts.length));
 
-  // Calculate Total Amount
+  //calculating total amount of cart items
   let sum = cartProducts
     .map((product) => {
       let price = product.price;
@@ -43,7 +38,6 @@ function Cart() {
       return acc + curr;
     }, 0);
 
-  // Use Effect
   useEffect(() => {
     store.dispatch(setTotalAmount(Number(sum).toFixed(2)));
   }, [sum]);
@@ -51,7 +45,7 @@ function Cart() {
   return (
     <div>
       <SummaryCard items={totalItems} amount={totalAmount} />
-      {/* Empty Cart button */}
+      {}
       {cartProducts.length > 0 && (
         <div>
           {" "}
@@ -70,19 +64,19 @@ function Cart() {
         </div>
       )}
 
-      {/* Get Products */}
+      {}
       <div className="cart-container">
         {products
           .filter((product) => product.added)
           .map((product) => {
-            // variables
+        
             let id = product.id;
             let title = product.title;
             let imageUrl = product.imageUrl;
             let price = product.price;
             let quantity = product.quantity;
 
-            // If Quantity is > 0
+   
             if (quantity > 0) {
               return (
                 <div key={id} className="cart-products">
