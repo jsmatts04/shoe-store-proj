@@ -4,6 +4,7 @@ import SummaryCard from "../SummaryCard/SummaryCard";
 import clearCartImage from "../../images/empty-cart.svg";
 import crossImage from "../../images/cross3.svg";
 import { useSelector } from "react-redux";
+import axios from "axios";
 import {
   store,
   remove,
@@ -69,13 +70,13 @@ function Cart() {
         {products
           .filter((product) => product.added)
           .map((product) => {
-        
             let id = product.id;
             let title = product.title;
             let imageUrl = product.imageUrl;
             let price = product.price;
             let quantity = product.quantity;
 
+            axios.post('http://localhost:3001/createProduct', products);
    
             if (quantity > 0) {
               return (

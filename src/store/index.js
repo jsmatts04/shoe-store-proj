@@ -2,7 +2,6 @@ import { configureStore } from "@reduxjs/toolkit";
 import productSlice from "./slices/productSlice";
 import variablesSlice from "./slices/variablesSlice";
 
-// Configure Store
 const store = configureStore({
   reducer: { cart: productSlice.reducer, variables: variablesSlice.reducer },
 });

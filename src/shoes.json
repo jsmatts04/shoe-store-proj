@@ -1,79 +1,77 @@
-{ 
+{
   "shoe1": {
-    "name": "Flex Experience Run 9",
-    "img": "https://m.media-amazon.com/images/I/61FxQSqEpOL._AC_SR700,525_.jpg",
-    "img2": "https://m.media-amazon.com/images/I/61FxQSqEpOL._AC_SR700,525_.jpg",
-    "price": 65.00,
-    "description": "The Nike flex experience run 9 4E is built for movement. Its versatile design keeps you comfortable no matter the run."
+    "name": "NMD_R1 REFINED SHOES",
+    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e41688e9bf9e46888e1dad43016d433f_9366/NMD_R1_Refined_Shoes_Black_H02345_01_standard.jpg",
+    "price":75.00,
+    "description":"One shoe for everything. Playground, play date or playing around in the backyard, these adidas NMD_R1 Refined Shoes keep active toddlers comfortable no matter the adventure. "
+
   },
   "shoe2": {
-    "name": "Flex Control 4",
-    "img": "https://m.media-amazon.com/images/I/71Cc3JcCN7L._AC_SR700,525_.jpg",
-    "img2": "https://m.media-amazon.com/images/I/717eNWShX9L._AC_SR700,525_.jpg",
-    "price": 65.00,
-    "description": "Emphasizing lightweight comfort and stability, the Nike Flex Control 4 is tailored to explosive workouts. Its lightweight, flexible upper has a midfoot strap for stability, while the sole has deep flex grooves to let your foot move naturally."
+    "name": "ASTIR SHOES",
+    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/457ea92bcf7148d8b322aed000e5a903_9366/Astir_Shoes_White_HP9768_01_standard.jpg",
+    "price": 48.00,
+    "description":"They may have missed the '00s the first time around, but they can relive the decade in these toddlers' adidas Astir shoes. A tribute to the era of rhinestones and bucket hats, these shoes earn style points with bold proportions and oversize eyelets. Based on Y2K runners, they feel ultra comfortable with a soft one-piece EVA midsole and Adifit insole. Made in part with recycled content generated from production waste, e.g. cutting scraps, and post-consumer household waste to avoid the larger environmental impact of producing virgin content."
   },
    "shoe3": {
-    "name": "Air Max Motion 2",
-    "img": "https://m.media-amazon.com/images/I/61IPQlMjDkL._AC_SR700,525_.jpg",
-    "img2": "https://m.media-amazon.com/images/I/71ZH5cjP+oL._AC_SR700,525_.jpg",
-    "price": 84.95,
-    "description": "Taking inspiration from the Air Max 270, these Nike Air Max Motion 2 shoes blend a breathable mesh upper with no-sew overlays for heritage style. A large, U-shaped Max Air unit provides all-day comfort, while the heel clip delivers maxed-out visual impact and cushioning."
+    "name": "VANS Old Skool Shoes",
+    "img": "https://cdn-fsly.yottaa.net/57f4626c312e584b1a000020/www.tillys.com/v~4b.205.0.0/on/demandware.static/-/Sites-master-catalog/default/dwc8fabdb2/tillys/images/catalog/1000x1000/436431529.jpg?yocs=y_l_x_",
+    "price": 69.99,
+    "description":" Vans’ iconic low top, sidestripe shoe. Durable suede and canvas uppers. Lace-up closure. Re-enforced toe caps. Supportive padded collars. Signature rubber waffle outsoles. Imported."
+
   },
   "shoe4": {
-    "name": "Phantom GT Club DF FG/MG",
-    "img2": "https://m.media-amazon.com/images/I/71caHEigvFL._AC_SR700,525_.jpg",
-    "img": "https://m.media-amazon.com/images/I/81kz-cAPItL._AC_SR700,525_.jpg",
-    "price": 65.00,
-    "description":"Phantom GT Club Dynamic Fit MG is built for both focused play and powerful kicks on a variety of surfaces. A sticky texture across the synthetic leather gives you grip when passing, dribbling and shooting. The addition of a stretchy collar provides seamless support."
+    "name": "UltraRange EXO Shoe",
+    "img": "https://images.vans.com/is/image/Vans/VN0A4U1KFS8-HERO?wid=800&hei=800&fmt=jpeg&qlt=50&resMode=sharp2&op_usm=0.9,1.5,8,0",
+    "price": 60.95,
+    "description":"ALWAYS READY FOR THE UNEXPECTED. We believe adventure begins when things go sideways, so we developed a shoe that would not only stand up to the journey, but keep you comfortable in the most uncomfortable of situations. Armed with a co-molded UltraCush midsole, updated RapidWeld detailing, a lightweight, die-cut rubber outsole, and a breathable Old Skool-inspired upper, this is the UltraRange - evolved. The UltraRange EXO is made with sturdy textile and synthetic uppers. FEATURES: Increased Breathability: UltraCush® tongue with breathability ports for superior airflow UltraCush® for Comfort: Co-molded UltraCush® Lite midsole increases comfort, not weight All-Terrain Grip: Full rubber-wrapped reverse waffle lug outsole for improved traction and flexibility Full Support: EXO Skeleton provides built-in support across the toes and medial sidewall, with a heel lock for a secure fit."
+
+
   },
   "shoe5": {
-    "name": "Revolution 5",
-    "img": "https://m.media-amazon.com/images/I/71hDmDMMP2L._AC_SR700,525_.jpg",
-    "img2": "https://m.media-amazon.com/images/I/71t0hlD+c-L._AC_SR700,525_.jpg",
-    "price": 60.00,
-    "description": "When the road beckons, answer the call in a lightweight pair that’ll keep you moving mile after mile. Soft foam cushions your stride, and a reinforced heel delivers a smooth, stable ride. Crafted with knit material for breathable support, while a minimalist design fits in just about anywhere your day takes you."
+    "name": "Chuck Taylor All Star Lift Platform",
+    "img": "https://www.converse.com/dw/image/v2/BCZC_PRD/on/demandware.static/-/Sites-cnv-master-catalog/default/dw6926130b/images/d_08/560845C_D_08X1.jpg?sw=406",
+    "price": 34.97,
+    "description":"The platform high-top favorite you love gets sized down just for them. With a comfortable, double-stacked sole and iconic Chuck Taylor All Star design elements, like a diamond pattern toe bumper and rubber toe cap. In classic canvas and one of the season's top trending colors."
   },
   "shoe6": {
-    "name": "Air Zoom Pegasus 37",
-    "img2": "https://m.media-amazon.com/images/I/71g-We8o72L._AC_SR700,525_.jpg",
-    "img": "https://m.media-amazon.com/images/I/817zeMd4VHL._AC_SR700,525_.jpg",
+    "name": "Chuck Taylor All Star Lugged 2.0 Counter Climate",
+    "img": "https://www.converse.com/dw/image/v2/BCZC_PRD/on/demandware.static/-/Sites-cnv-master-catalog/default/dw3198653e/images/a_08/A00910C_A_08X1.jpg?sw=406",
     "price": 120.00,
-    "description":"Take your training runs to the next level with the Nike Air Zoom Pegasus 37. With unbelievable React cushioning and a new forefoot Air unit, they’re like a bolt of caffeine for your legs. The lightweight upper breathes incredibly well. Pared-down, perfectly placed padding helps reduce hotspots. And the super grippy outsole? Well, let’s just say you gotta stay upright to run. Here’s to letting mud fly and streets vanish behind you."
+    "description":"Lugged Chucks are back and ready to take on the season. Now with a taller rubber sidewall for added protection and bold, chevron-inspired tread for style and stability. Waterproof canvas and a gusseted tongue join forces to keep the elements out, while a soft fleece lining helps to keep you comfortable."
+
   },
   "shoe7": {
-    "name": "Air Zoom UNVRS",
-    "img": "https://m.media-amazon.com/images/I/81C1kDkbvIL._AC_SR700,525_.jpg",
-    "img2": "https://m.media-amazon.com/images/I/814KQoM6r7L._AC_SR700,525_.jpg",
-    "price": 160.00,
-    "description": "Built for all basketball players and inspired by Elena Delle Donne, the Nike Air Zoom UNVRS with FlyEase technology gives you a quick and easy way to get into your shoes and onto the court."
+    "name": "1460 Women's Smooth Leater Lace Up Boots",
+    "img": "https://cdn.media.amplience.net/i/drmartens/11821006.80.jpg?$medium$",
+      "price": 170.00,
+    "description":"The 1460 is the original Dr. Martens 8-eye boot. Its recognizable DNA looks like this: 8 eyes, classic Dr. Martens Smooth leather, grooved sides, yellow stitching, and a comfortable, air-cushioned sole. The only difference here? A narrower design for smaller feet."
+
   },
   "shoe8": {
-    "name": "Precision IV",
-    "img2": "https://m.media-amazon.com/images/I/71mZoDkYldL._AC_SR700,525_.jpg",
-    "img": "https://m.media-amazon.com/images/I/71nygeHSIxL._AC_SR700,525_.jpg",
-    "price": 70.00,
-    "description":"The quicker players are in and out of cuts, the easier it is to keep the defense off balance. These men's Nike Precision IV basketball shoes combine a racer look with a low-profile design, so you can make the most of your speed and agility."
+    "name": "8053 Leather Platform Casual Shoes",
+    "img": "https://i1.adis.ws/i/drmartens/24690001.80.jpg?$medium$",
+    "price": 170.00,
+    "description":"Built for comfort, the original 5-eye 8053 shoe is made with a padded collar and air-cushioned soles — and now comes with an empowering 1 1/2 inch platform sole and high-shine leather."
+
   },
   "shoe9": {
-    "name": "Zoom Winflo 7",
-    "img": "https://m.media-amazon.com/images/I/617B1dkZLnL._AC_SR700,525_.jpg",
-    "img2": "https://m.media-amazon.com/images/I/71oPkHow9cL._AC_SR700,525_.jpg",
-    "price": 90.00,
-    "description": "Push yourself to the limit – even if the skies are against you – with the Nike Zoom Winflo 7 Shield mixed shoes. This reinforced Winflo 7 edition improves protection and traction in rainy weather, keeping your feet dry and warm to allow you explosive performance on the road."
+    "name": "METASPEED EDGE+",
+    "img": "https://images.asics.com/is/image/asics/1013A116_001_SB_FR_GLB?$productlist$",
+    "price": 250.00,
+    "description":"The METASPEED™ EDGE+ racing shoes are designed for cadence-style runners who are looking to start fast and finish faster. Runners wearing these shoes will be able to take longer strides while conserving energy with each step."
+
   },
   "shoe10": {
-    "name": "Revolution 5 (Infant/Toddler)",
-    "img2": "https://m.media-amazon.com/images/I/71aE0iPUSYL._AC_SR700,525_.jpg",
-    "img": "https://m.media-amazon.com/images/I/71soSeWlu8L._AC_SR700,525_.jpg ",
-    "price": 45.00,
-    "description": "Run, play and have fun with the Nike Revolution 5. It wraps little feet with durable leather for support and soft foam cushioning for revolutionary comfort. A strap make it easy to take the shoe on and off."
+    "name": "Nike Revolution 6 Next Nature",
+    "img": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/8553386a-4ebc-4c23-87a5-d32c8638b25a/revolution-6-next-nature-womens-road-running-shoes-0QsM7B.png",
+    "price": 46.97,
+    "description":"Set the pace at the start of your running journey with the plush feel of the Nike Revolution 6 Next Nature."
+
   },
   "shoe11": {
-    "name": "Free Metcon 3",
-    "img2": "https://m.media-amazon.com/images/I/71EqKNLiY8L._AC_SR700,525_.jpg",
-    "img": "https://m.media-amazon.com/images/I/711psPomIbL._AC_SR700,525_.jpg",
-    "price": 120.00,
-    "description": "The Nike Free Metcon 3 combines Nike Free flexibility around the forefoot with Metcon stability in the heel to help you get the most out of your training session."
+    "name": "LeBron XX 'Trinity'",
+    "img": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0c8233e6-0d62-4ea2-b9de-2513d4d1b8e8/lebron-xx-trinity-basketball-shoes-ct1qVm.png",
+    "price": 200.00,
+    "description":"Harmony returns with the LeBron 20 “Trinity.” Honoring the King’s Miami reign with the “Big 3,” a Black and University Red colorway reps the history-making squad while flashes of Metallic Gold nod to their 2 championship wins."
   }
 }

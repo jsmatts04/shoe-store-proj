@@ -53,7 +53,7 @@ function Login() {
                     <button type="submit" className="register-submit-btn"> Login</button>
                     {flag && (
                         <Alert className="alert-message">
-                            Fields Incomplete!
+                            Incorrect Credentials!
                         </Alert>
                     )}
                     </form>

@@ -27,7 +27,7 @@ function Register() {
             localStorage.setItem("Email", JSON.stringify(email));
             localStorage.setItem("Password", JSON.stringify(password));
 
-            axios.post('http://localhost:3001/create', newUsers)
+            axios.post('http://localhost:3001/create', newUsers);
             console.log("Saved in Local Storage");
             setLogin(!login);
         }

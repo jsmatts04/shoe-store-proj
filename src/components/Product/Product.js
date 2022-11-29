@@ -22,6 +22,8 @@ function Product() {
           let imageUrl = product.imageUrl;
           let price = product.price;
 
+          
+
           return (
             <div key={id} className="hvr-grow products">
               <h3 className="shoe-name">{title} </h3>
@@ -55,5 +57,4 @@ function Product() {
     </div>
   );
 }
-
 export default Product;

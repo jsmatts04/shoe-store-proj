@@ -25,7 +25,7 @@ function ProductItems() {
           className="shoe-image"
           alt="Shoe"
           title={shoe.name}
-          src={shoe.img2}
+          src={shoe.img}
         />{" "}
       </div>
       <h2 className="shoe-description"> {shoe.description} </h2>
